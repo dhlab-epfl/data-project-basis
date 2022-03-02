@@ -5,6 +5,7 @@ import sys
 sys.path.append("../../src")
 sys.path.append("../../scripts")
 
+# import data filepath we want to use
 from data_filepaths import s0_balzac_books
 
 # %%
@@ -22,5 +23,6 @@ downloaded_list_of_books = [
 
 # %%
 
+# write some data to a file
 with open(s0_balzac_books, "w") as f:
     json.dump(downloaded_list_of_books, f)

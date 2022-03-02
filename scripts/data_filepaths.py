@@ -1,7 +1,5 @@
 from os.path import join as j
 
-
-
 relative_path_to_root = j("..","..")
 
 # use and abuse from os.path.join() (here aliased as "j") it ensures cross OS compatible paths
